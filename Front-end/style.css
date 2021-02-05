@@ -1,8 +1,15 @@
-body{
-    background-color: rgb(163, 60, 60);
+body {
+    background-color: rgb(255, 255, 255);
+}
+#banner {
+    width: 100%;
 }
 
-h1{
+header{
+
+}
+
+.titulo_centralizado {
     text-align: center;
 }
 
@@ -11,10 +18,35 @@ p {
 
 }
 
-#missao{
+#missao {
     font-size: 20px;
 }
 
 em strong{
     color: crimson;
+}
+
+.itensLista1 {
+    font-style: italic;
+}
+
+.introducao{
+    background-color: gray;
+}
+
+.beneficios{
+    background-color: white;
+}
+.titulo_principal{
+    padding-left: 20px;
+}
+ul{
+    font-size: 18px;
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+
+.corteaovivo{
+    width: 50%;
 }
