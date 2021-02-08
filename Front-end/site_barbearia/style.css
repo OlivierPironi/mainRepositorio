@@ -1,3 +1,39 @@
+header {
+    background-color: darkgray;
+    padding: 20px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav li {
+    display: inline; 
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: darkgoldenrod;
+    text-decoration:underline;
+}
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -8,6 +44,8 @@ body {
 
 .titulo_centralizado {
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 p {
@@ -21,6 +59,7 @@ p {
 
 em strong{
     color: crimson;
+    font-weight: bold;
 }
 
 .itensLista1 {
@@ -29,6 +68,7 @@ em strong{
 
 .introducao{
     background-color: gray;
+    padding: 30px;
 }
 
 .beneficios{
@@ -37,7 +77,7 @@ em strong{
 .titulo_principal{
     padding-left: 20px;
 }
-ul{
+.ul1{
     font-size: 18px;
     display: inline-block;
     width: 35%;
@@ -46,4 +86,14 @@ ul{
 
 .corteaovivo{
     width: 50%;
+}
+footer {
+    background: url(bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+    font-size: 13px;
 }
