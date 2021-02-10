@@ -34,54 +34,59 @@ nav a:hover{
     color: darkgoldenrod;
     text-decoration:underline;
 }
-
-
-.produtos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 20px;
+body {
+    background-color: rgb(255, 255, 255);
 }
-.produtos li{
-    display: inline-block;
+#banner {
+    width: 100%;
+}
+
+
+.titulo_centralizado {
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border:3px black solid;
-    border-radius: 10px;
-}
-
-.produtos li:hover{
-    border:3px darkgoldenrod solid;
-    border-radius: 10px;
-}
-.produtos li:hover h2{
-    font-size: 34px;
-}
-
-.produtos li:active{
-    border:3px green solid;
-    border-radius: 10px;
-}
-
-.produtos h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.produto-descricao{
+p {
+    text-align: center;
+
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong{
+    color: crimson;
+    font-weight: bold;
+}
+
+.itensLista1 {
+    font-style: italic;
+}
+
+.introducao{
+    background-color: gray;
+    padding: 30px;
+}
+
+.beneficios{
+    background-color: white;
+}
+.titulo_principal{
+    padding-left: 20px;
+}
+.ul1{
     font-size: 18px;
-    font-weight:lighter;
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
 }
 
-.produto-preco{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+.corteaovivo{
+    width: 50%;
 }
-
 footer {
     background: url(bg.jpg);
     text-align: center;
