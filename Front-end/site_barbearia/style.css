@@ -109,6 +109,28 @@ form label, form legend{
     margin: 10px 0px;
 }
 
+.enviar{
+    width: 30%;
+    padding: 15px;
+    color: white;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    transform: scale(1);
+    transition: 1s all;
+}
+
+.enviar:hover{
+    border: darkgreen solid;
+    border-width: 2px;
+    background-color: rgb(230, 167, 8);
+    cursor: pointer;
+    transform:scale(1.05);
+    transition: 1s all;
+}
+
 footer {
     background: url(bg.jpg);
     text-align: center;
@@ -118,4 +140,22 @@ footer {
     color: white;
     margin-top: 20px;
     font-size: 13px;
+}
+
+table{
+    margin: 20px;
+}
+
+thead{
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: solid black 1px;
+
+}
+
+td{
+    padding: 10px;
+    border: solid black 1px;
 }
