@@ -37,15 +37,29 @@ nav a:hover{
 body {
     background-color: rgb(255, 255, 255);
 }
-#banner {
+.banner {
     width: 100%;
 }
 
 
 .titulo_centralizado {
     text-align: center;
-    font-size: 25px;
+    font-size: 2em;
     font-weight: bold;
+    margin: 0 0 1em 0;
+    clear: left;
+}
+
+.introducao p {
+    margin: 0 0 1em 0;
+}
+
+.introducao strong {
+    font-weight: bold;
+}
+
+.introducao em {
+    font-style: italic;
 }
 
 p {
@@ -74,6 +88,13 @@ em strong{
 .beneficios{
     background-color: white;
 }
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
 .titulo_principal{
     padding-left: 20px;
 }
@@ -85,7 +106,7 @@ em strong{
 }
 
 .corteaovivo{
-    width: 50%;
+    width: 60%;
 }
 footer {
     background: url(bg.jpg);
