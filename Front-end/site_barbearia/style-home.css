@@ -2,6 +2,9 @@ header {
     background-color: darkgray;
     padding: 20px;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 nav{
     position: absolute;
@@ -50,6 +53,14 @@ body {
     clear: left;
 }
 
+
+.introducao{
+padding: 3em 0;
+background-color: blanchedalmond;
+width: 940px;
+margin: 0 auto;
+}
+
 .introducao p {
     margin: 0 0 1em 0;
 }
@@ -78,11 +89,18 @@ em strong{
 
 .itensLista1 {
     font-style: italic;
+    line-height: 1.5;
+}
+.itensLista1:first-child{
+    font-weight: bold;
+}
+.itensLista1::before{
+    content: "★";
 }
 
 .introducao{
-    background-color: gray;
-    padding: 30px;
+    background-color: white;
+
 }
 
 .beneficios{
@@ -101,12 +119,21 @@ em strong{
 .ul1{
     font-size: 18px;
     display: inline-block;
-    width: 35%;
+    width: 40%;
     vertical-align: top;
 }
 
 .corteaovivo{
     width: 60%;
+    opacity: 70%;
+    transition: 1s;
+}
+
+.corteaovivo:hover{
+    width: 60%;
+    transition: 1s;
+    opacity: 100%;
+    box-shadow: 10px 10px 20px black;
 }
 footer {
     background: url(bg.jpg);
@@ -117,4 +144,57 @@ footer {
     color: white;
     margin-top: 20px;
     font-size: 13px;
+}
+.beneficios {
+    padding: 3em 0;
+    background: gray;
+
+
+}
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(white,gray);
+
+
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+.mapa p{
+    padding: 0 0 2em;
+}
+.video{
+    margin: 1em auto;
+    text-align: center;
+}
+
+
+.conteudo-beneficios{
+    margin: 0 auto;
+    width: 640px;
+}
+
+@media screen and (max-width: 480px){
+    .caixa,.introducao,.mapa-conteudo,.conteudo-beneficios,.video{
+        width: 100%;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+    
+    h1{
+        text-align: center;
+        display: block;
+    }
+
+    .ul1,.corteaovivo{
+        display: block;
+        width: 100%;
+    }
+
+
 }
