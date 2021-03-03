@@ -137,3 +137,14 @@ button[disabled=disabled], button:disabled {
 	background-color: indianred;
 	font-weight: bold;
 }
+
+#mensagem-erro{
+	background-color: rgb(255, 255, 255);
+	width: 940px;
+	color: red;
+}
+
+.fadeOut{
+	opacity: 0%;
+	transition: 0.5s;
+}
